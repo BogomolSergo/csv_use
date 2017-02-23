@@ -13,6 +13,10 @@ class HomeCSV
       puts 'File was written!'
     end
   end
+  
+  def banana 
+    # something
+  end
 
   def self.input # Input data method
     puts 'write Name: '
