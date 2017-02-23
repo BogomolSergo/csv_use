@@ -14,7 +14,7 @@ class HomeCSV
     end
   end
 
-  def self.input
+  def self.input # Input data method
     puts 'write Name: '
     name = gets.chomp
     @array << name
