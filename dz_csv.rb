@@ -13,18 +13,18 @@ class HomeCSV
   end
 
   def self.that_oll?(params) # Check month switch.
-    unless params == @mont
-      puts "Temperature month #{@mont}:~ #{@sum_t / @i} C"
-      @mont = params
+    unless params == @month
+      puts "Temperature month #{@month}:~ #{@sum_t / @i} C"
+      @month = params
       @i = 0
       @sum_t = 0
     end
   end
 
   def self.mdt_temperatures(temp)
-    @sum_t = 0 # Calculations
+    @sum_t = 0 # Calculations...
     @i = 0
-    @mont = '01'
+    @month = '01'
     temp.each_pair do |data, t|
       case data[1]
       when '01'
