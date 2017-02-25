@@ -42,4 +42,5 @@ class HomeCSV
     end
   end
 end
+
 HomeCSV.mdt_temperatures(HomeCSV.read_csv)
