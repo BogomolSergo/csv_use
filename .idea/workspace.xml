@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f8d35d1-2a6d-421c-8790-7a9f9e23238c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dz2_q_matrix.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dz_csv.rb" afterPath="$PROJECT_DIR$/dz3_csv.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/untitled1.iml" afterPath="$PROJECT_DIR$/.idea/untitled1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dz2_q_matrix.rb" afterPath="$PROJECT_DIR$/dz2_q_matrix.rb" />
     </list>
     <list id="eb9fd864-72c7-4195-9362-61c095d999f4" name="Failed commit: Default" comment="cvs use by me" />
     <ignored path="untitled1.iws" />
@@ -24,7 +22,7 @@
     <SUITE FILE_PATH="coverage/untitled1@csv.coverage" NAME="csv Coverage Results" MODIFIED="1487883666474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../untitled1" MODULE_NAME="untitled1" />
     <SUITE FILE_PATH="coverage/CVS_use@habra.coverage" NAME="habra Coverage Results" MODIFIED="1488032318038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="untitled1" />
     <SUITE FILE_PATH="coverage/CVS_use@csv.coverage" NAME="dz_csv Coverage Results" MODIFIED="1487975569713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="untitled1" />
-    <SUITE FILE_PATH="coverage/CVS_use@q_matrix.coverage" NAME="dz2_q_matrix Coverage Results" MODIFIED="1488033837600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="untitled1" />
+    <SUITE FILE_PATH="coverage/CVS_use@q_matrix.coverage" NAME="dz2_q_matrix Coverage Results" MODIFIED="1488033927880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="untitled1" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -48,8 +46,8 @@
       <file leaf-file-name="dz2_q_matrix.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dz2_q_matrix.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="342">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -355,7 +353,7 @@
       <workItem from="1487881373680" duration="2931000" />
       <workItem from="1487884362062" duration="1768000" />
       <workItem from="1487956319044" duration="18017000" />
-      <workItem from="1488019291292" duration="10920000" />
+      <workItem from="1488019291292" duration="11684000" />
     </task>
     <task id="LOCAL-00001" summary="cvs use by me">
       <created>1487884600991</created>
@@ -420,11 +418,25 @@
       <option name="project" value="LOCAL" />
       <updated>1487975720915</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HW3, search simple digits.">
+      <created>1488033900040</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1488033900040</updated>
+    </task>
+    <task id="LOCAL-00011" summary="HW3, search simple digits.">
+      <created>1488033956957</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1488033956957</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36368000" />
+    <option name="totallyTimeSpent" value="37132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,7 +522,8 @@
     <MESSAGE value="cvs use by me" />
     <MESSAGE value="cvs DZ, all fantasy" />
     <MESSAGE value="cvs DZ, all fantasy, now its finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="cvs DZ, all fantasy, now its finish" />
+    <MESSAGE value="HW3, search simple digits." />
+    <option name="LAST_COMMIT_MESSAGE" value="HW3, search simple digits." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -717,8 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dz2_q_matrix.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="342">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>

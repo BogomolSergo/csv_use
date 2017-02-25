@@ -17,4 +17,5 @@ class Dz2QMatrix
     print range
   end
 end
+
 matrix = Dz2QMatrix.new(10)
