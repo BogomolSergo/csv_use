@@ -1,21 +1,37 @@
 class Dz2QMatrix
-  attr_reader :n
   def initialize(n)
     @n = n
     @n > 10 ? 'Object cant be >10' : to_simple?(@n)
   end
 
   def to_simple?(n)
-    range = [1]
+    @range = [1]
     for i in 0..n
       next unless i > 1
       for j in 2..i
         break if (i % j).zero?
-        range << i if j + 1 == i
+        @range << i if j + 1 == i
       end
     end
-    print range
+    @range
   end
+
+	def q_matrix
+		matrix = @range
+		matrix2 = []
+		i = 0
+		j = 0
+		(matrix.size).times do
+			matrix.each_index do |d|
+				matrix2 << matrix[d+i]
+				i = -1 if i == 3
+			end
+			i += 1
+			print "#{matrix2} \n"
+			matrix2.clear
+		end
+	end
 end
 
-matrix = Dz2QMatrix.new(10)
+m = Dz2QMatrix.new(10)
+m.q_matrix
