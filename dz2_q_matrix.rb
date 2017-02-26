@@ -5,7 +5,7 @@ class Dz2QMatrix
   end
 
   def to_simple?(n)
-    @range = [1]
+    @range = [2]
     for i in 0..n
       next unless i > 1
       for j in 2..i
