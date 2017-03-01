@@ -1,10 +1,10 @@
 class Dz2QMatrix
   def initialize(n)
     @n = n # max = 10 digits
-    @n > 10 ? 'Object cant be >10' : to_simple?(@n)
+    @n > 10 ? 'Object cant be >10' : to_simple(@n)
   end
 
-  def to_simple?(n)
+  def to_simple(n)
     @range = [2] # First simple digit.
     (0..n).each do |i|
       next unless i > 1
@@ -15,6 +15,10 @@ class Dz2QMatrix
     end
     @size = @range.size
     @range
+  end
+
+  def valid_params
+
   end
 
   def build_this_shit(matrix = @range, size = @size, matrix2 = [], i = 0)
