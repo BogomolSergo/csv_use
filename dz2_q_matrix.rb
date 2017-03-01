@@ -17,10 +17,6 @@ class Dz2QMatrix
     @range
   end
 
-  def valid_params
-
-  end
-
   def build_this_shit(matrix = @range, size = @size, matrix2 = [], i = 0)
     matrix.size.times do
       matrix.each_index do |d|
